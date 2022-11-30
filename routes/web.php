@@ -46,7 +46,9 @@ Route::get('bb/d1', function (){
     return view('bb.d1');
 });
 
-
+Route::get('bb/d2', function (){
+    return view('bb.d2');
+});
 
 
 
