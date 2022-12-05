@@ -27,6 +27,7 @@ Route::middleware([
     })->name('dashboard');
 });
 
+//路由aa
 Route::get('/aa/a1',function (){
     return view('aa.a1');
 });
@@ -40,6 +41,7 @@ Route::get('/cc/c2',function (){
     return view('cc.c2');
 });
 
+//路由bb
 Route::get('bb/b1', function (){
     return view('bb.b1');
 });
@@ -56,11 +58,20 @@ Route::get('bb/d2', function (){
     return view('bb.d2');
 });
 
+
 Route::get('/ee/e1',function (){
     return view('ee.e1');
 });
 
 Route::get('/ee/e2',function (){
     return view('ee.e2');
+}); 
+
+//路由ff
+Route::get('ff/f1', function () {
+    return view('ff.f1');
 });
 
+Route::get('ff/f2', function () {
+    return view('ff.f2');
+});
