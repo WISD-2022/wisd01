@@ -65,7 +65,7 @@ Route::get('/ee/e1',function (){
 
 Route::get('/ee/e2',function (){
     return view('ee.e2');
-}); 
+});
 
 //路由ff
 Route::get('ff/f1', function () {
@@ -74,4 +74,8 @@ Route::get('ff/f1', function () {
 
 Route::get('ff/f2', function () {
     return view('ff.f2');
+});
+
+Route::get('gg/g1', function () {
+    return view('gg.g1');
 });
