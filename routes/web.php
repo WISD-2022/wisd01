@@ -67,3 +67,7 @@ Route::get('ff/f2', function () {
     return view('ff.f2');
 });
 
+//路由hh
+Route::get('hh/h1', function () {
+    return view('hh.h1');
+});
