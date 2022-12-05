@@ -58,6 +58,15 @@ Route::get('bb/d2', function (){
     return view('bb.d2');
 });
 
+
+Route::get('/ee/e1',function (){
+    return view('ee.e1');
+});
+
+Route::get('/ee/e2',function (){
+    return view('ee.e2');
+});
+
 //路由ff
 Route::get('ff/f1', function () {
     return view('ff.f1');
@@ -74,4 +83,12 @@ Route::get('hh/h1', function () {
 
 Route::get('hh/h2', function () {
     return view('hh.h2');
+});
+
+Route::get('gg/g1', function () {
+    return view('gg.g1');
+});
+
+Route::get('gg/g2', function () {
+    return view('gg.g2');
 });
